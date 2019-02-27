@@ -21,6 +21,32 @@
         font-weight:bold;
         color: #fff;
       }
+      h1{
+        font-size: 56px;
+      line-height: 1.35;
+      letter-spacing: -.02em;
+      margin: 0px 0px;
+      }
+    
+.nav-link:hover {
+  overflow: hidden;
+   /* background-color: orange; */
+   border-bottom: 5px solid orange;
+   font-size:18px;
+   font-weight: bold;
+    
+}
+.nav-link:active {
+   
+   border-bottom: 5px solid orange;
+   font-size:18px;
+   font-weight: bold;
+    
+}
+h6 .fa { 
+  font-size: 200%;
+  color: #fff;
+}
     </style>
 </head>
 <body>
@@ -37,12 +63,12 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"> <i class="fa fa-home"></i> Home
+            <a class="nav-link active" href="#"> <i class="fa fa-home"></i> Home
                   <span class="sr-only">(current)</span>
                 </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="login"> <i class="fa fa-sign-in"></i> Login </a>
+            <a class="nav-link active" href="login"> <i class="fa fa-sign-in"></i> Login </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="dashboard"> <i class="fa fa-dashboard"></i> Dashboard </a>
@@ -64,19 +90,20 @@
   <app-root></app-root>
 
 <div class="container-fluid">
-  <div class="row" style="background-color:#bda05d;">
+  <div class="row" style="    background: -webkit-linear-gradient(left, #00ff667a, #8811c5);">
           <div class="col-md-3">
-            <h6>Phone: +91-80-46306666</h6> 
+            <h6><i class="fa fa-phone"></i> Phone: +91-80-46306666</h6> 
           </div>
           <div class="col-md-6">
-              <h6>Bhilwara Infotechnology Limited</h6>
-              <h6>#244, Fortune Summit Business Park
-                  1st Floor, Hosur Road 
-                  Near Silk Board Junction
-                  Bengaluru, India – 560068.</h6>
+              <h6><i class="fa fa-map-marker"></i>
+                Bhilwara Infotechnology Limited<br>
+                 #244, Fortune Summit Business Park,<br>
+                  1st Floor, Hosur Road ,
+                  Near Silk Board Junction,<br>
+                  Bengaluru, India – 560068. </h6>
           </div>
           <div class="col-md-3">
-              <h6>Fax: +91-80-41466262</h6>
+              <h6><i class="fa fa-fax"></i>Fax: +91-80-41466262</h6>
           </div>
   </div>
 </div>
